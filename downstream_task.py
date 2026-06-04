@@ -37,7 +37,7 @@ def main():
     np.random.seed(args.seed)
     torch.manual_seed(args.seed)
 
-    for args.data in ['yacht', 'wine', 'concrete', 'energy', 'housing', 'kin8nm', 'naval', 'power']:
+    for args.data in ['yacht', 'concrete', 'housing', 'power']:
         print('=' * 100)
         print(f'[Config] dataset:{args.data}')
 

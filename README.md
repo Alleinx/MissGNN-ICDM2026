@@ -30,41 +30,19 @@ pip install torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
 
 All datasets should be placed inside the `uci/raw_data` folder.
 
-- UCI (8 datasets): https://github.com/maxiaoba/GRAPE/tree/master/uci/raw_data
-  - concrete, energy, housing, kin8nm, naval, power, wine, yacht
-- Extra 16 datasets: 
-  - airfoil, blood, breast, diabetes, ionosphere, iris, wine-white, protein, spam, letter, ai4i, cmc, german, steel, libras, california-housing
-
-
 Expected folder structure:
 
 ```
 ├── uci
 │   ├── __init__.py
 │   ├── raw_data
-│   │   ├── ai4i
-│   │   ├── airfoil
-│   │   ├── blood
-│   │   ├── breast
-│   │   ├── california-housing
 │   │   ├── cmc
 │   │   ├── concrete
-│   │   ├── diabetes
-│   │   ├── energy
 │   │   ├── german
 │   │   ├── housing
 │   │   ├── ionosphere
-│   │   ├── iris
-│   │   ├── kin8nm
-│   │   ├── letter
-│   │   ├── libras
-│   │   ├── naval
 │   │   ├── power
-│   │   ├── protein
-│   │   ├── spam
 │   │   ├── steel
-│   │   ├── wine
-│   │   ├── wine-white
 │   │   └── yacht
 │   ├── uci_data.py
 │   └── uci_subparser.py
