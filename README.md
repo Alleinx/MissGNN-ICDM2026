@@ -81,6 +81,6 @@ bash run_exp3_ablation.sh
 
 ### 4. Baselines
 
-```
+```train
 python baseline_mdi.py --method mean uci --train_edge 0.7 --data yacht
 ```
