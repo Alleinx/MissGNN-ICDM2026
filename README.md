@@ -1,4 +1,4 @@
-## Anonymous Submission \# to ICDM 2026
+## Anonymous ICDM 2026 Submission
 
 ## Requirements & Setup
 
