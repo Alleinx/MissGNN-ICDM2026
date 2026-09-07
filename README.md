@@ -1,4 +1,11 @@
-## Anonymous ICDM 2026 Submission
+# [ICDM 2026] MissGNN: Missingness-Guided Graph Neural Network for Feature- and Sample-Aware Imputation
+
+### Introduction
+Missing values are a common problem that poses significant challenges to data analysis and machine learning. This problem necessitates the development of an effective imputation method to fill in the missing values accurately, thereby enhancing the overall quality and utility of the datasets. 
+
+In this work, we propose MissGNN, a novel imputation method that explicitly leverages missingness information and both feature- and sample-level correlations through carefully designed masking schemes. MissGNN first models the data as a bipartite graph and uses a graph neural network to learn node embeddings, where a novel embedding initialization process directly incorporates the missingness information. These embeddings are then optimized through MissGNN's novel feature correlation unit FCU and sample correlation unit SCU, which effectively capture feature and sample correlations for imputation. 
+
+Experimental results on 8 benchmark datasets against 12 popular and state-of-the-art imputation baselines under three different missingness settings (MCAR, MAR, and MNAR) demonstrate the effectiveness of MissGNN, achieving the best average MAE scores on 7 datasets and the second-best on the remaining one.
 
 ## Requirements & Setup
 
